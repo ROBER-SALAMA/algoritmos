@@ -7,9 +7,7 @@ Algoritmo Calcular_Planilla
     Escribir "Ingrese el pago por hora"
     Leer pagoHora
     
-    
     salario = horasTrabajadas * pagoHora
     
-    
-    Escribir "El salario bruto del empleado es: ", salario
+    Escribir "El salario del empleado es: ", "$",salario
 FinAlgoritmo
