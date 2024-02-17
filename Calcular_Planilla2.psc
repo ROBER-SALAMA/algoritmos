@@ -9,10 +9,10 @@ Algoritmo Calcular_Planilla2
     Escribir "Ingrese el pago por hora"
     Leer pagoHora
 	
-	salario = (horasTrabajadas * diasTrabajados)
-	resultado = salario * pagoHora;
+	resultado = (horasTrabajadas * diasTrabajados)
+	salario = resultado * pagoHora;
     
     // salario = horasTrabajadas * pagoHora
     
-    Escribir "El salario del empleado es: ", "$",resultado
+    Escribir "El salario del empleado es: ", "$",salario
 FinAlgoritmo
